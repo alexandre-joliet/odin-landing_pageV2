@@ -61,7 +61,6 @@ a {
     font-weight: 400;
 }
 
-
 button {
     background-color: #3882f6;
     color: white;
@@ -78,4 +77,41 @@ button {
     box-shadow: 2px 2px 12px 6px rgba(0, 0, 0, 0.2);
 }
 
-    
+/* MID-SECTION */
+.mid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 100px;
+}
+
+.mid-groups {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.mid-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.mid-text {
+    font-size: 18px;
+}
+
+.mid-picture {
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 6px rgba(0, 0, 0, 0.2);
+}
