@@ -61,7 +61,7 @@ a {
     font-weight: 400;
 }
 
-button {
+.button-info {
     background-color: #3882f6;
     color: white;
     font-weight: 700;
@@ -114,4 +114,74 @@ button {
     height: 200px;
     border-radius: 10px;
     box-shadow: 2px 2px 12px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* QUOTE */
+.quote {
+    background-color: rgba(255, 255, 255, 0.45);
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    padding: 50px 200px;
+}
+
+.quote-text {
+    text-align: left;
+    font-size: 24px;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+/* BOTTON */
+.bottom {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px 25px;
+    margin: 100px 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-container {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.button-bottom {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 700;
+    border: 1px solid white;
+    width: 175px;
+    height: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 10px 0px;
 }
